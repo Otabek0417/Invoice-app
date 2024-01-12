@@ -6,9 +6,9 @@ import InvoiceList from "../components/InvoiceList";
 import Header from "../components/Header";
 
 function Home() {
-  const { isPending, error, data } = useFetch("http://localhost:3450/data");
+  const { isPending, error, data } = useFetch("http://localhost:3000/data");
   return (
-    <div>
+    <div className="w-full mx-auto">
       <Header />
       <InvoiceList invoices={data} />
     </div>

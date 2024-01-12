@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="pl-[22px] pr-6 bg-CARBON-BLUE bg-logo-bg bg-no-repeat  bg-left bg-[length:72px_72px] flex justify-between items-center lg:flex-col lg:bg-top lg:bg-[length:103px_103px] lg:px-0 lg:pt-[33.5px] lg:pb-6 lg:rounded-tr-[20px] lg:rounded-br-[20px]">
+    <div className="lg:fixed lg:h-[740px]  pl-[22px] pr-6 bg-CARBON-BLUE bg-logo-bg bg-no-repeat  bg-left bg-[length:72px_72px] flex justify-between items-center lg:flex-col lg:bg-top lg:bg-[length:103px_103px] lg:px-0 lg:pt-[33.5px] lg:pb-6 lg:rounded-tr-[20px] lg:rounded-br-[20px]">
       <img src="./assets/logo.svg" alt="logo" width={28} height={26} />
       <div className="flex lg:flex-col lg:justify-center ">
         <div className="border-r-2 lg:border-r-0 lg:border-b-2 border-[#494E6E] flex items-center lg:p-0  py-6 pr-6 lg:justify-center lg:pb-8">
